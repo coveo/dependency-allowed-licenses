@@ -1,19 +1,43 @@
 # Allow list for closed-source undistributed projects.
 allow-licenses:
-  - '0BSD'             # https://spdx.org/licenses/0BSD
-  - 'Apache-2.0'       # https://spdx.org/licenses/Apache-2.0
-  - 'Beerware'         # https://spdx.org/licenses/Beerware
-  - 'BSD-2-Clause'     # https://spdx.org/licenses/BSD-2-Clause
-  - 'BSD-3-Clause'     # https://spdx.org/licenses/BSD-3-Clause
-  - 'CC0-1.0'          # https://spdx.org/licenses/CC0-1.0
-  - 'GPL-2.0-only'     # https://spdx.org/licenses/GPL-2.0-only
-  - 'GPL-2.0-or-later' # https://spdx.org/licenses/GPL-2.0-or-later
-  - 'GPL-3.0-only'     # https://spdx.org/licenses/GPL-3.0-only
-  - 'GPL-3.0-or-later' # https://spdx.org/licenses/GPL-3.0-or-later
-  - 'ISC'              # https://spdx.org/licenses/ISC
-  - 'LGPL-2.1'         # https://spdx.org/licenses/LGPL-2.1
-  - 'LGPL-2.1-only'    # https://spdx.org/licenses/LGPL-2.1-only
-  - 'MIT'              # https://spdx.org/licenses/MIT
-  - 'MS-PL'            # https://spdx.org/licenses/MS-PL
-  - 'WTFPL'            # https://spdx.org/licenses/WTFPL
-  - 'X11'              # https://spdx.org/licenses/X11
+  - '0BSD'
+  - 'Apache-2.0'
+  - 'Beerware'
+  - 'BSD-1-Clause'
+  - 'BSD-2-Clause'
+  - 'BSD-2-Clause-Patent'
+  - 'BSD-2-Clause-Views'
+  - 'BSD-3-Clause'
+  - 'BSD-3-Clause-Attribution'
+  - 'BSD-3-Clause-Clear'
+  - 'BSL-1.0'
+  - 'CC0-1.0'
+  - 'CDDL-1.0'
+  - 'CDDL-1.1'
+  - 'CPL-1.0'
+  - 'IBM-pibs'
+  - 'ISC'
+  - 'JSON'
+  - 'LGPL-2.1-only'
+  - 'LGPL-3.0-only'
+  - 'MIT'
+  - 'MIT-0'
+  - 'MIT-advertising'
+  - 'mpi-permissive'
+  - 'MPL-1.1'
+  - 'NCSA'
+  - 'Nokia'
+  - 'PDDL-1.0'
+  - 'Python-2.0'
+  - 'Python-2.0.1'
+  - 'SAX-PD'
+  - 'SPL-1.0'
+  - 'Unlicense'
+  - 'UPL-1.0'
+  - 'Wsuipa'
+  - 'WTFPL'
+  - 'X11'
+  - 'X11-distribute-modifications-variant'
+  - 'Xerox'
+  - 'YPL-1.1'
+  - 'Zlib'
