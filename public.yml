@@ -1,12 +1,43 @@
 # Allow list for open-source projects.
 allow-licenses:
-  - '0BSD'            # https://spdx.org/licenses/0BSD
-  - 'Apache-2.0'      # https://spdx.org/licenses/Apache-2.0
-  - 'Beerware'        # https://spdx.org/licenses/Beerware
-  - 'BSD-2-Clause'    # https://spdx.org/licenses/BSD-2-Clause
-  - 'BSD-3-Clause'    # https://spdx.org/licenses/BSD-3-Clause
-  - 'CC0-1.0'         # https://spdx.org/licenses/CC0-1.0
-  - 'ISC'             # https://spdx.org/licenses/ISC
-  - 'MIT'             # https://spdx.org/licenses/MIT
-  - 'WTFPL'           # https://spdx.org/licenses/WTFPL
-  - 'X11'             # https://spdx.org/licenses/X11
+  - '0BSD'
+  - 'Apache-2.0'
+  - 'Beerware'
+  - 'BlueOak-1.0.0'
+  - 'BSD-1-Clause'
+  - 'BSD-2-Clause'
+  - 'BSD-2-Clause-Patent'
+  - 'BSD-2-Clause-Views'
+  - 'BSD-3-Clause'
+  - 'BSD-3-Clause-Attribution'
+  - 'BSD-3-Clause-Clear'
+  - 'BSL-1.0'
+  - 'CC0-1.0'
+  - 'CNRI-Python'
+  - 'curl'
+  - 'HPND'
+  - 'IBM-pibs'
+  - 'ISC'
+  - 'JSON'
+  - 'MIT'
+  - 'MIT-0'
+  - 'MIT-advertising'
+  - 'mpi-permissive'
+  - 'NCSA'
+  - 'PDDL-1.0'
+  - 'Plexus'
+  - 'PostgreSQL'
+  - 'PSF-2.0'
+  - 'Python-2.0'
+  - 'Python-2.0.1'
+  - 'SAX-PD'
+  - 'Unlicense'
+  - 'UPL-1.0'
+  - 'W3C'
+  - 'Wsuipa'
+  - 'WTFPL'
+  - 'X11'
+  - 'X11-distribute-modifications-variant'
+  - 'Xerox'
+  - 'Zlib'
+  - 'ZPL-2.1'
