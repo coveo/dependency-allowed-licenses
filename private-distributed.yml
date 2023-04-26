@@ -27,7 +27,6 @@ allow-licenses:
   - 'MIT-advertising'
   - 'mpi-permissive'
   - 'NCSA'
-  - 'NOASSERTION'
   - 'ODC-By-1.0'
   - 'PDDL-1.0'
   - 'Plexus'
