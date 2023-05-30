@@ -54,7 +54,6 @@ allow-licenses:
   - 'MIT AND Python-2.0'
   - 'MIT-0'
   - 'MIT-advertising'
-  - 'MIT AND NOASSERTION'
   - 'mpi-permissive'
   - 'MPL-1.1'
   - 'MPL-2.0'
