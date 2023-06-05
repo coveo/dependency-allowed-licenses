@@ -38,6 +38,7 @@ allow-licenses:
   - 'GPL-2.0-or-later'
   - 'GPL-3.0-only'
   - 'GPL-3.0-or-later'
+  - 'GPL-3.0-or-later AND LGPL-2.1-only'
   - 'HPND'
   - 'IBM-pibs'
   - 'ImageMagick'
