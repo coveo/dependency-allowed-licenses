@@ -53,6 +53,7 @@ allow-licenses:
   - 'LGPL-3.0-or-later'
   - 'MIT'
   - 'MIT AND Python-2.0'
+  - 'MIT AND MIT-0'
   - 'MIT-0'
   - 'MIT-advertising'
   - 'mpi-permissive'
