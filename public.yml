@@ -27,6 +27,7 @@ allow-licenses:
   - 'JSON'
   - 'MIT'
   - 'MIT-0'
+  - 'MIT AND ISC'
   - 'MIT AND Python-2.0'
   - 'MIT-advertising'
   - 'mpi-permissive'
