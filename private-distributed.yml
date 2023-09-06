@@ -5,6 +5,7 @@ allow-licenses:
   - 'Apache-2.0 AND BSD-3-Clause AND Python-2.0'
   - 'Beerware'
   - 'BlueOak-1.0.0'
+  - 'BSD'
   - 'BSD-1-Clause'
   - 'BSD-2-Clause'
   - 'BSD-2-Clause-Patent'
