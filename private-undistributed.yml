@@ -26,6 +26,7 @@ allow-licenses:
   - 'BSD-3-Clause-Clear'
   - 'BSD-3-Clause AND BSD-3-Clause-Clear'
   - 'BSL-1.0'
+  - 'CAL-1.0'
   - 'CC-BY-3.0'
   - 'CC-BY-4.0'
   - 'CC0-1.0'
