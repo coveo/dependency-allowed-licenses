@@ -1,5 +1,6 @@
 # Allow list for closed-source undistributed projects.
 allow-licenses:
+  - '(Artistic-1.0 AND Artistic-2.0) OR (Artistic-1.0-Perl AND Artistic-2.0 AND GPL-1.0-or-later) OR (Artistic-2.0 AND GPL-2.0-or-later)'
   - '0BSD'
   - '0BSD AND BSD-2-Clause'
   - 'AFL-2.1'
