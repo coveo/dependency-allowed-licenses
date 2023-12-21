@@ -32,6 +32,7 @@ allow-licenses:
   - 'MIT-0'
   - 'MIT-advertising'
   - 'mpi-permissive'
+  - 'MPL-2.0'
   - 'NCSA'
   - 'ODC-By-1.0'
   - 'PDDL-1.0'
