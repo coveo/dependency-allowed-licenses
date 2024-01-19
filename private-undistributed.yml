@@ -28,6 +28,7 @@ allow-licenses:
   - 'BSD-3-Clause-Attribution'
   - 'BSD-3-Clause-Clear'
   - 'BSD-3-Clause AND BSD-3-Clause-Clear'
+  - 'BSD-4-Clause'
   - 'BSL-1.0'
   - 'CC-BY-3.0'
   - 'CC-BY-4.0'
