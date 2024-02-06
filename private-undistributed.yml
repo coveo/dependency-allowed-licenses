@@ -24,6 +24,7 @@ allow-licenses:
   - 'BSD-2-Clause AND BSD-3-Clause'
   - 'BSD-2-Clause AND MIT'
   - 'BSD-2-Clause AND ISC'
+  - 'BSD-2-Clause AND BSD-4-Clause'
   - 'BSD-3-Clause'
   - 'BSD-3-Clause-Attribution'
   - 'BSD-3-Clause-Clear'
