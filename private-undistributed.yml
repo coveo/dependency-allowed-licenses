@@ -48,6 +48,7 @@ allow-licenses:
   - 'GPL-3.0-only'
   - 'GPL-3.0-or-later'
   - 'GPL-3.0-or-later AND LGPL-2.1-only'
+  - 'GPL-3.0-or-later AND LGPL-2.1-only AND curl'
   - 'GPL-3.0-only AND GPL-3.0-or-later AND LGPL-3.0-only'
   - 'HPND'
   - 'IBM-pibs'
