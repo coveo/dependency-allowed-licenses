@@ -67,6 +67,7 @@ allow-licenses:
   - 'MIT'
   - 'MIT AND ISC'
   - 'MIT AND Python-2.0'
+  - 'MIT AND NOASSERTION AND Python-2.0'
   - 'MIT AND MIT-0'
   - 'MIT AND PSF-2.0'
   - 'MIT-0'
