@@ -29,7 +29,6 @@ allow-licenses:
   - 'MIT-0'
   - 'MIT AND ISC'
   - 'MIT AND Python-2.0'
-  - 'MIT AND NOASSERTION AND Python-2.0'
   - 'MIT-advertising'
   - 'MPL-2.0'
   - 'mpi-permissive'
