@@ -68,6 +68,7 @@ allow-licenses:
   - 'MIT AND ISC'
   - 'MIT AND Python-2.0'
   - 'MIT AND MIT-0'
+  - 'MIT AND MPL-2.0'
   - 'MIT AND PSF-2.0'
   - 'MIT-0'
   - 'MIT-advertising'
