@@ -101,6 +101,7 @@ allow-licenses:
   - 'X11'
   - 'X11-distribute-modifications-variant'
   - 'Xerox'
+  - 'xpp'
   - 'YPL-1.1'
   - 'Zlib'
   - 'ZPL-2.1'
