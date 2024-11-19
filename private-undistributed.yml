@@ -14,6 +14,7 @@ allow-licenses:
   - 'Apache-2.0 AND EPL-1.0 AND EPL-2.0'
   - 'Apache-2.0 AND LGPL-3.0-or-later'
   - 'Apache-2.0 AND LGPL-3.0-or-later AND MIT'
+  - 'Apache-2.0 AND MIT AND MPL-2.0'
   - 'Apache-2.0 WITH LLVM-exception'
   - 'APL-1.0'
   - 'Artistic-2.0'
