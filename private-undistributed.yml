@@ -33,6 +33,7 @@ allow-licenses:
   - 'BSD-2-Clause AND BSD-3-Clause AND LGPL-2.0-or-later AND MIT'
   - 'BSD-2-Clause AND MIT'
   - 'BSD-2-Clause AND ISC'
+  - 'BSD-2-Clause AND ISC AND Python-2.0'
   - 'BSD-3-Clause AND ISC AND MIT'
   - 'BSD-2-Clause AND BSD-4-Clause'
   - 'BSD-3-Clause'
