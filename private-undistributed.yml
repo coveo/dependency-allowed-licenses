@@ -46,7 +46,7 @@ allow-licenses:
   - 'BSL-1.0'
   - 'CC-BY-3.0'
   - 'CC-BY-4.0'
-  - 'CC-BY-4.0 AND CC-BY-SA-4.0 AND GCC-BY-SA-4.0PL-2.0-only AND GPL-2.0-or-later'
+  - 'CC-BY-4.0 AND CC-BY-SA-4.0 AND GPL-2.0-only AND GPL-2.0-or-later'
   - 'CC0-1.0'
   - 'CDDL-1.0'
   - 'CDDL-1.1'
