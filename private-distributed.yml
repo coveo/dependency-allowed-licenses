@@ -49,6 +49,7 @@ allow-licenses:
   - 'Python-2.0.1'
   - 'SAX-PD'
   - 'Unlicense'
+  - 'LicenseRef-scancode-public-domain AND Unlicense'
   - 'UPL-1.0'
   - 'W3C'
   - 'Wsuipa'
