@@ -91,6 +91,7 @@ allow-licenses:
   - 'MIT AND MIT-CMU'
   - 'MIT AND MPL-2.0'
   - 'MIT AND PSF-2.0'
+  - 'MIT AND ZPL-2.1'
   - 'MIT AND Python-2.0.1'
   - 'MIT-0'
   - 'MIT-advertising'
