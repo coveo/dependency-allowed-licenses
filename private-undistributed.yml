@@ -104,6 +104,7 @@ allow-licenses:
   - 'Nokia'
   - '0BSD AND Apache-2.0 AND BSD-3-Clause AND MIT'
   - '0BSD AND BSD-2-Clause AND BSD-3-Clause'
+  - '0BSD AND BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference AND PSF-2.0 AND Python-2.0'
   - 'ODC-By-1.0'
   - 'OFL-1.1'
   - 'PDDL-1.0'
