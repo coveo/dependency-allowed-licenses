@@ -2,6 +2,7 @@
 allow-licenses:
   - '(Artistic-1.0 AND Artistic-2.0) OR (Artistic-1.0-Perl AND Artistic-2.0 AND GPL-1.0-or-later) OR (Artistic-2.0 AND GPL-2.0-or-later)'
   - '0BSD'
+  - '0BSD AND ISC AND MIT'
   - '0BSD AND BSD-2-Clause'
   - 'AFL-2.1'
   - 'AFL-3.0'
@@ -77,6 +78,7 @@ allow-licenses:
   - 'ImageMagick'
   - 'ISC'
   - 'JSON'
+  - 'LicenseRef-scancode-public-domain AND Unlicense'
   - 'LGPL-2.0-or-later'
   - 'LGPL-2.1'
   - 'LGPL-2.1-only'
