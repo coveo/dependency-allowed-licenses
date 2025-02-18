@@ -49,6 +49,7 @@ allow-licenses:
   - 'BSD-3-Clause AND BSD-3-Clause-Clear'
   - 'BSD-2-Clause AND BSD-3-Clause AND Python-2.0'
   - 'BSD-3-Clause AND LicenseRef-scancode-protobuf'
+  - 'BSD-3-Clause AND LicenseRef-scancode-other-permissive AND Python-2.0'
   - 'BSD-4-Clause'
   - 'BSL-1.0'
   - 'CAL-1.0 AND PSF-2.0'
