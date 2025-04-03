@@ -3,6 +3,8 @@
 # A script is present in the scripts folder to generate the purl for a specific groupId.
 # Keep this list sorted alphabetically please!
 allow-dependencies-licenses:
+  # com.google.errorprone/error_prone_annotations has a Apache-2.0 license but it is not detected properly (https://github.com/google/error-prone?tab=Apache-2.0-1-ov-file#readme)
+  - 'pkg:maven/com.google.errorprone/error_prone_annotations'
   # org.json/json has a public domain license but it is not detected properly by GitHub (https://github.com/stleary/JSON-java/blob/master/LICENSE)
   - 'pkg:maven/org.json/json'
   # All Spring Framework, Spring Boot, Spring Cloud and Spring Data.
