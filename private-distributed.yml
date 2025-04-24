@@ -57,3 +57,4 @@ allow-licenses:
   - 'Xerox'
   - 'Zlib'
   - 'ZPL-2.1'
+  - 'MPL-2.0'
