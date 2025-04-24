@@ -403,6 +403,7 @@ allow-licenses:
   - 'BSD-3-Clause-Clear'
   - 'BSD-3-Clause AND BSD-3-Clause-Clear'
   - 'BSD-2-Clause AND BSD-3-Clause AND Python-2.0'
+  - 'BSD-3-Clause AND LicenseRef-scancode-generic-cla AND MIT'
   - 'BSD-3-Clause AND LicenseRef-scancode-protobuf'
   - 'BSD-4-Clause'
   - 'BSL-1.0'
