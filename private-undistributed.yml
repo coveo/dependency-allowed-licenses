@@ -573,6 +573,7 @@ allow-licenses:
   - 'ISC AND LicenseRef-scancode-unknown-license-reference'
   - 'JSON AND LicenseRef-scancode-unknown-license-reference'
   - 'LicenseRef-scancode-public-domain AND Unlicense AND LicenseRef-scancode-unknown-license-reference'
+  - 'LicenseRef-scancode-secret-labs-2011 AND MIT-CMU'
   - 'LGPL-2.0-or-later AND LicenseRef-scancode-unknown-license-reference'
   - 'LGPL-2.1 AND LicenseRef-scancode-unknown-license-reference'
   - 'LGPL-2.1-only AND LicenseRef-scancode-unknown-license-reference'
