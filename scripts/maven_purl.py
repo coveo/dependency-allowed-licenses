@@ -47,5 +47,5 @@ if __name__ == "__main__":
         print(f"No artifacts found for groupId: {group_id}")
     else:
         purls = generate_purls(group_id, artifacts)
-        for purl in purls:
+        for purl in sorted(purls):
             print(purl)
