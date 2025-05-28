@@ -457,6 +457,7 @@ allow-licenses:
   - 'MIT AND MPL-2.0'
   - 'MIT AND OSL-3.0'
   - 'MIT AND PSF-2.0'
+  - 'MIT AND PSF-2.0 AND Python-2.0'
   - 'MIT AND Python-2.0.1'
   - 'MIT AND ZPL-2.1'
   - 'MIT-0'
