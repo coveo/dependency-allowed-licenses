@@ -1,279 +1,277 @@
 # Allow list for closed-source undistributed projects.
 allow-licenses:
-  - 'Artistic-1.0 AND Artistic-2.0'
-  - 'Artistic-1.0-Perl AND Artistic-2.0 AND GPL-1.0-or-later'
-  - 'Artistic-2.0 AND GPL-2.0-or-later'
-  - '0BSD'
-  - '0BSD AND ISC AND MIT'
-  - '0BSD AND BSD-2-Clause'
-  - 'AFL-2.1'
-  - 'AFL-3.0'
-  - 'Apache-2.0'
-  - 'Apache-2.0 AND BSD-2-Clause'
-  - 'Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT'
-  - 'Apache-2.0 AND BSD-2-Clause AND BlueOak-1.0.0 AND CC0-1.0 AND ISC AND MIT'
-  - 'Apache-2.0 AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT'
-  - 'Apache-2.0 AND BSD-3-Clause AND GPL-3.0-only AND MIT'
-  - 'Apache-2.0 AND BSD-2-Clause AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND LGPL-3.0-or-later AND LicenseRef-scancode-other-permissive AND MIT AND MPL-2.0'
-  - 'Apache-2.0 AND BSD-2-Clause AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND LGPL-3.0-or-later AND MIT'
-  - 'Apache-2.0 AND BSD-3-Clause AND MIT AND OFL-1.1'
-  - 'Apache-2.0 AND BSD-3-Clause AND MIT AND Zlib'
-  - 'Apache-2.0 AND BSD-3-Clause AND MPL-2.0'
-  - 'Apache-2.0 AND BSD-3-Clause AND Python-2.0'
-  - 'Apache-2.0 AND CNRI-Python'
-  - 'Apache-2.0 AND EPL-1.0 AND EPL-2.0'
-  - 'Apache-2.0 AND LGPL-3.0-or-later'
-  - 'Apache-2.0 AND LGPL-3.0-or-later AND MIT'
-  - 'Apache-2.0 AND MIT AND MIT-0'
-  - 'Apache-2.0 AND MIT AND MPL-2.0'
-  - 'Apache-2.0 WITH LLVM-exception'
-  - 'APL-1.0'
-  - 'Artistic-2.0'
-  - 'Beerware'
-  - 'BlueOak-1.0.0'
-  - 'BSD-1-Clause'
-  - 'BSD-2-Clause'
-  - 'BSD-2-Clause-Patent'
-  - 'BSD-2-Clause-Views'
-  - 'BSD-2-Clause AND BSD-2-Clause-Views'
-  - 'BSD-2-Clause AND BSD-3-Clause'
-  - 'BSD-2-Clause AND BSD-3-Clause AND GPL-1.0-or-later'
-  - 'BSD-2-Clause AND BSD-3-Clause AND ISC AND Python-2.0'
-  - 'BSD-2-Clause AND BSD-3-Clause AND LGPL-3.0-only'
-  - 'BSD-2-Clause AND BSD-3-Clause AND LGPL-2.0-or-later AND MIT'
-  - 'BSD-2-Clause AND BSD-2-Clause-Views AND BSD-3-Clause'
-  - 'BSD-2-Clause AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND LGPL-3.0-or-later AND LicenseRef-scancode-alliance-open-media-patent-1.0 AND LicenseRef-scancode-other-permissive AND MIT AND MPL-2.0'
-  - 'BSD-2-Clause AND MIT'
-  - 'BSD-2-Clause AND ISC'
-  - 'BSD-2-Clause AND ISC AND Python-2.0'
-  - 'BSD-3-Clause AND ISC AND MIT'
-  - 'BSD-2-Clause AND BSD-4-Clause'
-  - 'BSD-3-Clause'
-  - 'BSD-3-Clause-Attribution'
-  - 'BSD-3-Clause-Clear'
-  - 'BSD-3-Clause AND BSD-3-Clause-Clear'
-  - 'BSD-2-Clause AND BSD-3-Clause AND Python-2.0'
-  - 'BSD-3-Clause AND LicenseRef-scancode-generic-cla AND MIT'
-  - 'BSD-3-Clause AND LicenseRef-scancode-protobuf'
-  - 'BSD-4-Clause'
-  - 'BSL-1.0'
-  - 'CC-BY-3.0'
-  - 'CC-BY-4.0'
-  - 'CC-BY-4.0 AND CC-BY-SA-4.0 AND GPL-2.0-only AND GPL-2.0-or-later'
-  - 'CC0-1.0'
-  - 'CDDL-1.0'
-  - 'CDDL-1.1'
-  - 'CDDL-1.1 AND (CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND GPL-2.0-only'
-  - 'CNRI-Python'
-  - 'CPL-1.0'
-  - 'curl'
-  - 'EPL-1.0'
-  - 'EPL-2.0'
-  - 'EPL-2.0 AND Apache-2.0 AND BSD-3-Clause'
-  - 'EPL-2.0 AND BSD-3-Clause AND Apache-1.1 AND EPL-2.0 AND EPL-1.0 AND Apache-1.1 AND Apache-2.0 AND BSD-2-Clause AND Apache-2.0 AND Apache-1.1 AND BSD-3-Clause'
-  - 'EPL-2.0 AND GPL-1.0-or-later AND GPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0'
-  - 'EPL-1.0 AND GPL-1.0-or-later AND GPL-2.0-only AND GPL-2.0-only'
-  - 'LGPL-2.1-only AND GPL-3.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0-or-later'
-  - 'GPL-2.0-or-later'
-  - 'GPL-1.0-or-later'
-  - 'GPL-2.0-only'
-  - 'GPL-3.0-only'
-  - 'GPL-3.0-or-later'
-  - 'GPL-3.0-or-later AND LGPL-2.1-only'
-  - 'GPL-3.0-or-later AND LGPL-2.1-only AND curl'
-  - 'GPL-3.0-only AND GPL-3.0-or-later AND LGPL-3.0-only'
-  - 'HPND'
-  - 'IBM-pibs'
-  - 'ImageMagick'
-  - 'ISC'
-  - 'ISC AND MIT AND MPL-2.0'
-  - 'JSON'
-  - 'JSON AND MIT'
-  - 'LicenseRef-scancode-dco-1.1 AND MIT'
-  - 'LicenseRef-scancode-public-domain AND Unlicense'
-  - 'LGPL-2.0-or-later'
-  - 'LGPL-2.1'
-  - 'LGPL-2.1-only'
-  - 'LGPL-2.1-only AND MIT AND MPL-1.1'
-  - 'LGPL-2.1+'
-  - 'LGPL-3.0'
-  - 'LGPL-3.0-only'
-  - 'LGPL-3.0-or-later'
-  - 'LGPL-3.0-or-later WITH openvpn-openssl-exception'
-  - 'MIT'
-  - 'MIT AND ISC'
-  - 'MIT AND Python-2.0'
-  - 'MIT AND MIT-0'
-  - 'MIT AND MIT-CMU'
-  - 'MIT AND MPL-2.0'
-  - 'MIT AND OSL-3.0'
-  - 'MIT AND PSF-2.0'
-  - 'MIT AND PSF-2.0 AND Python-2.0'
-  - 'MIT AND Python-2.0.1'
-  - 'MIT AND ZPL-2.1'
-  - 'MIT-0'
-  - 'MIT-advertising'
-  - 'mpi-permissive'
-  - 'MPL-1.1'
-  - 'MPL-2.0'
-  - 'NCSA'
-  - 'Nokia'
-  - '0BSD AND Apache-2.0 AND BSD-3-Clause AND MIT'
-  - '0BSD AND BSD-2-Clause AND BSD-3-Clause'
-  - 'ODC-By-1.0'
-  - 'OFL-1.1'
-  - 'PDDL-1.0'
-  - 'Plexus'
-  - 'PostgreSQL'
-  - 'PSF-2.0'
-  - 'Python-2.0'
-  - 'Python-2.0 AND Python-2.0 AND BSD-3-Clause AND Python-2.0 AND BSD-3-Clause AND 0BSD'
-  - 'Python-2.0.1'
-  - 'Ruby'
-  - 'SAX-PD'
-  - 'SPL-1.0'
-  - 'Unlicense'
-  - 'UPL-1.0'
-  - 'W3C'
-  - 'Wsuipa'
-  - 'WTFPL'
-  - 'X11'
-  - 'X11-distribute-modifications-variant'
-  - 'Xerox'
-  - 'xpp'
-  - 'YPL-1.1'
-  - 'Zlib'
-  - 'ZPL-2.1'
-  - 'LicenseRef-scancode-unknown-license-reference'
-
-  # This is workaround for https://github.com/aboutcode-org/scancode-toolkit/issues/4222, it's the above list with AND LicenseRef-scancode-unknown-license-reference appended to it
-  - '0BSD AND LicenseRef-scancode-unknown-license-reference'
-  - '0BSD AND ISC AND MIT AND LicenseRef-scancode-unknown-license-reference'
-  - '0BSD AND BSD-2-Clause AND LicenseRef-scancode-unknown-license-reference'
-  - 'AFL-2.1 AND LicenseRef-scancode-unknown-license-reference'
-  - 'AFL-3.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'Apache-2.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'Apache-2.0 AND BSD-2-Clause AND LicenseRef-scancode-unknown-license-reference'
-  - 'Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND LicenseRef-scancode-unknown-license-reference'
-  - 'Apache-2.0 AND BSD-2-Clause AND BlueOak-1.0.0 AND CC0-1.0 AND ISC AND MIT AND LicenseRef-scancode-unknown-license-reference'
-  - 'Apache-2.0 AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT AND LicenseRef-scancode-unknown-license-reference'
-  - 'Apache-2.0 AND BSD-3-Clause AND GPL-3.0-only AND MIT AND LicenseRef-scancode-unknown-license-reference'
-  - 'Apache-2.0 AND BSD-3-Clause AND MIT AND OFL-1.1 AND LicenseRef-scancode-unknown-license-reference'
-  - 'Apache-2.0 AND BSD-3-Clause AND MIT AND Zlib AND LicenseRef-scancode-unknown-license-reference'
-  - 'Apache-2.0 AND BSD-3-Clause AND MPL-2.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'Apache-2.0 AND BSD-3-Clause AND Python-2.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'Apache-2.0 AND CNRI-Python AND LicenseRef-scancode-unknown-license-reference'
-  - 'Apache-2.0 AND EPL-1.0 AND EPL-2.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'Apache-2.0 AND LGPL-3.0-or-later AND LicenseRef-scancode-unknown-license-reference'
-  - 'Apache-2.0 AND LGPL-3.0-or-later AND MIT AND LicenseRef-scancode-unknown-license-reference'
-  - 'Apache-2.0 AND MIT AND MIT-0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'Apache-2.0 AND MIT AND MPL-2.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'Apache-2.0 WITH LLVM-exception AND LicenseRef-scancode-unknown-license-reference'
-  - 'APL-1.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'Artistic-2.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'Beerware AND LicenseRef-scancode-unknown-license-reference'
-  - 'BlueOak-1.0.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-1-Clause AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-2-Clause AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-2-Clause-Patent AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-2-Clause-Views AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-2-Clause AND BSD-2-Clause-Views AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-2-Clause AND BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-2-Clause AND BSD-3-Clause AND GPL-1.0-or-later AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-2-Clause AND BSD-3-Clause AND ISC AND Python-2.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-2-Clause AND BSD-3-Clause AND LGPL-3.0-only AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-2-Clause AND BSD-3-Clause AND LGPL-2.0-or-later AND MIT AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-2-Clause AND BSD-2-Clause-Views AND BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-2-Clause AND MIT AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-2-Clause AND ISC AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-2-Clause AND ISC AND Python-2.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-3-Clause AND ISC AND MIT AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-2-Clause AND BSD-4-Clause AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-3-Clause-Attribution AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-3-Clause-Clear AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-3-Clause AND BSD-3-Clause-Clear AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-2-Clause AND BSD-3-Clause AND Python-2.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-3-Clause AND LicenseRef-scancode-protobuf AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSD-4-Clause AND LicenseRef-scancode-unknown-license-reference'
-  - 'BSL-1.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'CC-BY-3.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'CC-BY-4.0'
-  - 'CC-BY-4.0 AND CC-BY-SA-4.0 AND GPL-2.0-only AND GPL-2.0-or-later AND LicenseRef-scancode-unknown-license-reference'
-  - 'CC0-1.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'CDDL-1.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'CDDL-1.1 AND LicenseRef-scancode-unknown-license-reference'
-  - 'CDDL-1.1 AND (CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND GPL-2.0-only AND LicenseRef-scancode-unknown-license-reference'
-  - 'CNRI-Python AND LicenseRef-scancode-unknown-license-reference'
-  - 'CPL-1.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'curl AND LicenseRef-scancode-unknown-license-reference'
-  - 'EPL-1.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'EPL-2.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'EPL-2.0 AND Apache-2.0 AND BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference'
-  - 'EPL-2.0 AND GPL-1.0-or-later AND GPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'GPL-1.0-or-later AND LicenseRef-scancode-unknown-license-reference'
-  - 'GPL-2.0-only AND LicenseRef-scancode-unknown-license-reference'
-  - 'GPL-2.0-or-later AND LicenseRef-scancode-unknown-license-reference'
-  - 'GPL-3.0-only AND LicenseRef-scancode-unknown-license-reference'
-  - 'GPL-3.0-or-later AND LicenseRef-scancode-unknown-license-reference'
-  - 'GPL-3.0-or-later AND LGPL-2.1-only AND LicenseRef-scancode-unknown-license-reference'
-  - 'GPL-3.0-or-later AND LGPL-2.1-only AND curl AND LicenseRef-scancode-unknown-license-reference'
-  - 'GPL-3.0-only AND GPL-3.0-or-later AND LGPL-3.0-only AND LicenseRef-scancode-unknown-license-reference'
-  - 'HPND AND LicenseRef-scancode-unknown-license-reference'
-  - 'IBM-pibs AND LicenseRef-scancode-unknown-license-reference'
-  - 'ImageMagick AND LicenseRef-scancode-unknown-license-reference'
-  - 'ISC AND LicenseRef-scancode-unknown-license-reference'
-  - 'JSON AND LicenseRef-scancode-unknown-license-reference'
-  - 'LicenseRef-scancode-public-domain AND Unlicense AND LicenseRef-scancode-unknown-license-reference'
-  - 'LicenseRef-scancode-secret-labs-2011 AND MIT-CMU'
-  - 'LGPL-2.0-or-later AND LicenseRef-scancode-unknown-license-reference'
-  - 'LGPL-2.1 AND LicenseRef-scancode-unknown-license-reference'
-  - 'LGPL-2.1-only AND LicenseRef-scancode-unknown-license-reference'
-  - 'LGPL-2.1-only AND MIT AND MPL-1.1 AND LicenseRef-scancode-unknown-license-reference'
-  - 'LGPL-2.1+ AND LicenseRef-scancode-unknown-license-reference'
-  - 'LGPL-3.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'LGPL-3.0-only AND LicenseRef-scancode-unknown-license-reference'
-  - 'LGPL-3.0-or-later AND LicenseRef-scancode-unknown-license-reference'
-  - 'LGPL-3.0-or-later WITH openvpn-openssl-exception AND LicenseRef-scancode-unknown-license-reference'
-  - 'MIT AND LicenseRef-scancode-unknown-license-reference'
-  - 'MIT AND ISC AND LicenseRef-scancode-unknown-license-reference'
-  - 'MIT AND Python-2.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'MIT AND MIT-0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'MIT AND MIT-CMU AND LicenseRef-scancode-unknown-license-reference'
-  - 'MIT AND MPL-2.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'MIT AND PSF-2.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'MIT AND Python-2.0.1 AND LicenseRef-scancode-unknown-license-reference'
-  - 'MIT AND ZPL-2.1 AND LicenseRef-scancode-unknown-license-reference'
-  - 'MIT-0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'MIT-advertising AND LicenseRef-scancode-unknown-license-reference'
-  - 'mpi-permissive AND LicenseRef-scancode-unknown-license-reference'
-  - 'MPL-1.1 AND LicenseRef-scancode-unknown-license-reference'
-  - 'MPL-2.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'NCSA AND LicenseRef-scancode-unknown-license-reference'
-  - 'Nokia AND LicenseRef-scancode-unknown-license-reference'
-  - '0BSD AND Apache-2.0 AND BSD-3-Clause AND MIT AND LicenseRef-scancode-unknown-license-reference'
-  - '0BSD AND BSD-2-Clause AND BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference'
-  - 'ODC-By-1.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'OFL-1.1 AND LicenseRef-scancode-unknown-license-reference'
-  - 'PDDL-1.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'Plexus AND LicenseRef-scancode-unknown-license-reference'
-  - 'PostgreSQL AND LicenseRef-scancode-unknown-license-reference'
-  - 'PSF-2.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'Python-2.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'Python-2.0 AND Python-2.0 AND BSD-3-Clause AND Python-2.0 AND BSD-3-Clause AND 0BSD AND LicenseRef-scancode-unknown-license-reference'
-  - 'Python-2.0.1 AND LicenseRef-scancode-unknown-license-reference'
-  - 'Ruby AND LicenseRef-scancode-unknown-license-reference'
-  - 'SAX-PD AND LicenseRef-scancode-unknown-license-reference'
-  - 'SPL-1.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'Unlicense AND LicenseRef-scancode-unknown-license-reference'
-  - 'UPL-1.0 AND LicenseRef-scancode-unknown-license-reference'
-  - 'W3C AND LicenseRef-scancode-unknown-license-reference'
-  - 'Wsuipa AND LicenseRef-scancode-unknown-license-reference'
-  - 'WTFPL AND LicenseRef-scancode-unknown-license-reference'
-  - 'X11 AND LicenseRef-scancode-unknown-license-reference'
-  - 'X11-distribute-modifications-variant AND LicenseRef-scancode-unknown-license-reference'
-  - 'Xerox AND LicenseRef-scancode-unknown-license-reference'
-  - 'xpp AND LicenseRef-scancode-unknown-license-reference'
-  - 'YPL-1.1 AND LicenseRef-scancode-unknown-license-reference'
-  - 'Zlib AND LicenseRef-scancode-unknown-license-reference'
-  - 'ZPL-2.1 AND LicenseRef-scancode-unknown-license-reference'
+- 0BSD
+- 0BSD AND Apache-2.0 AND BSD-3-Clause AND MIT
+- 0BSD AND Apache-2.0 AND BSD-3-Clause AND MIT AND LicenseRef-scancode-unknown-license-reference
+- 0BSD AND BSD-2-Clause
+- 0BSD AND BSD-2-Clause AND BSD-3-Clause
+- 0BSD AND BSD-2-Clause AND BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference
+- 0BSD AND BSD-2-Clause AND LicenseRef-scancode-unknown-license-reference
+- 0BSD AND ISC AND MIT
+- 0BSD AND ISC AND MIT AND LicenseRef-scancode-unknown-license-reference
+- 0BSD AND LicenseRef-scancode-unknown-license-reference
+- AFL-2.1
+- AFL-2.1 AND LicenseRef-scancode-unknown-license-reference
+- AFL-3.0
+- AFL-3.0 AND LicenseRef-scancode-unknown-license-reference
+- Apache-2.0
+- Apache-2.0 AND BSD-2-Clause
+- Apache-2.0 AND BSD-2-Clause AND BlueOak-1.0.0 AND CC0-1.0 AND ISC AND MIT
+- Apache-2.0 AND BSD-2-Clause AND BlueOak-1.0.0 AND CC0-1.0 AND ISC AND MIT AND LicenseRef-scancode-unknown-license-reference
+- Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
+- Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT AND LicenseRef-scancode-unknown-license-reference
+- Apache-2.0 AND BSD-2-Clause AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND LGPL-3.0-or-later AND LicenseRef-scancode-other-permissive AND MIT AND MPL-2.0
+- Apache-2.0 AND BSD-2-Clause AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND LGPL-3.0-or-later AND MIT
+- Apache-2.0 AND BSD-2-Clause AND LicenseRef-scancode-unknown-license-reference
+- Apache-2.0 AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT
+- Apache-2.0 AND BSD-3-Clause AND CC0-1.0 AND ISC AND MIT AND LicenseRef-scancode-unknown-license-reference
+- Apache-2.0 AND BSD-3-Clause AND GPL-3.0-only AND MIT
+- Apache-2.0 AND BSD-3-Clause AND GPL-3.0-only AND MIT AND LicenseRef-scancode-unknown-license-reference
+- Apache-2.0 AND BSD-3-Clause AND MIT AND OFL-1.1
+- Apache-2.0 AND BSD-3-Clause AND MIT AND OFL-1.1 AND LicenseRef-scancode-unknown-license-reference
+- Apache-2.0 AND BSD-3-Clause AND MIT AND Zlib
+- Apache-2.0 AND BSD-3-Clause AND MIT AND Zlib AND LicenseRef-scancode-unknown-license-reference
+- Apache-2.0 AND BSD-3-Clause AND MPL-2.0
+- Apache-2.0 AND BSD-3-Clause AND MPL-2.0 AND LicenseRef-scancode-unknown-license-reference
+- Apache-2.0 AND BSD-3-Clause AND Python-2.0
+- Apache-2.0 AND BSD-3-Clause AND Python-2.0 AND LicenseRef-scancode-unknown-license-reference
+- Apache-2.0 AND CNRI-Python
+- Apache-2.0 AND CNRI-Python AND LicenseRef-scancode-unknown-license-reference
+- Apache-2.0 AND EPL-1.0 AND EPL-2.0
+- Apache-2.0 AND EPL-1.0 AND EPL-2.0 AND LicenseRef-scancode-unknown-license-reference
+- Apache-2.0 AND LGPL-3.0-or-later
+- Apache-2.0 AND LGPL-3.0-or-later AND LicenseRef-scancode-unknown-license-reference
+- Apache-2.0 AND LGPL-3.0-or-later AND MIT
+- Apache-2.0 AND LGPL-3.0-or-later AND MIT AND LicenseRef-scancode-unknown-license-reference
+- Apache-2.0 AND LicenseRef-scancode-unknown-license-reference
+- Apache-2.0 AND MIT AND MIT-0
+- Apache-2.0 AND MIT AND MIT-0 AND LicenseRef-scancode-unknown-license-reference
+- Apache-2.0 AND MIT AND MPL-2.0
+- Apache-2.0 AND MIT AND MPL-2.0 AND LicenseRef-scancode-unknown-license-reference
+- Apache-2.0 WITH LLVM-exception
+- Apache-2.0 WITH LLVM-exception AND LicenseRef-scancode-unknown-license-reference
+- APL-1.0
+- APL-1.0 AND LicenseRef-scancode-unknown-license-reference
+- Artistic-1.0 AND Artistic-2.0
+- Artistic-1.0-Perl AND Artistic-2.0 AND GPL-1.0-or-later
+- Artistic-2.0
+- Artistic-2.0 AND GPL-2.0-or-later
+- Artistic-2.0 AND LicenseRef-scancode-unknown-license-reference
+- Beerware
+- Beerware AND LicenseRef-scancode-unknown-license-reference
+- BlueOak-1.0.0
+- BlueOak-1.0.0 AND LicenseRef-scancode-unknown-license-reference
+- BSD-1-Clause
+- BSD-1-Clause AND LicenseRef-scancode-unknown-license-reference
+- BSD-2-Clause
+- BSD-2-Clause AND BSD-2-Clause-Views
+- BSD-2-Clause AND BSD-2-Clause-Views AND BSD-3-Clause
+- BSD-2-Clause AND BSD-2-Clause-Views AND BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference
+- BSD-2-Clause AND BSD-2-Clause-Views AND LicenseRef-scancode-unknown-license-reference
+- BSD-2-Clause AND BSD-3-Clause
+- BSD-2-Clause AND BSD-3-Clause AND GPL-1.0-or-later
+- BSD-2-Clause AND BSD-3-Clause AND GPL-1.0-or-later AND LicenseRef-scancode-unknown-license-reference
+- BSD-2-Clause AND BSD-3-Clause AND ISC AND Python-2.0
+- BSD-2-Clause AND BSD-3-Clause AND ISC AND Python-2.0 AND LicenseRef-scancode-unknown-license-reference
+- BSD-2-Clause AND BSD-3-Clause AND LGPL-2.0-or-later AND MIT
+- BSD-2-Clause AND BSD-3-Clause AND LGPL-2.0-or-later AND MIT AND LicenseRef-scancode-unknown-license-reference
+- BSD-2-Clause AND BSD-3-Clause AND LGPL-3.0-only
+- BSD-2-Clause AND BSD-3-Clause AND LGPL-3.0-only AND LicenseRef-scancode-unknown-license-reference
+- BSD-2-Clause AND BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference
+- BSD-2-Clause AND BSD-3-Clause AND Python-2.0
+- BSD-2-Clause AND BSD-3-Clause AND Python-2.0 AND LicenseRef-scancode-unknown-license-reference
+- BSD-2-Clause AND BSD-4-Clause
+- BSD-2-Clause AND BSD-4-Clause AND LicenseRef-scancode-unknown-license-reference
+- BSD-2-Clause AND ISC
+- BSD-2-Clause AND ISC AND LicenseRef-scancode-unknown-license-reference
+- BSD-2-Clause AND ISC AND Python-2.0
+- BSD-2-Clause AND ISC AND Python-2.0 AND LicenseRef-scancode-unknown-license-reference
+- BSD-2-Clause AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND LGPL-3.0-or-later AND LicenseRef-scancode-alliance-open-media-patent-1.0 AND LicenseRef-scancode-other-permissive AND MIT AND MPL-2.0
+- BSD-2-Clause AND LicenseRef-scancode-unknown-license-reference
+- BSD-2-Clause AND MIT
+- BSD-2-Clause AND MIT AND LicenseRef-scancode-unknown-license-reference
+- BSD-2-Clause-Patent
+- BSD-2-Clause-Patent AND LicenseRef-scancode-unknown-license-reference
+- BSD-2-Clause-Views
+- BSD-2-Clause-Views AND LicenseRef-scancode-unknown-license-reference
+- BSD-3-Clause
+- BSD-3-Clause AND BSD-3-Clause-Clear
+- BSD-3-Clause AND BSD-3-Clause-Clear AND LicenseRef-scancode-unknown-license-reference
+- BSD-3-Clause AND ISC AND MIT
+- BSD-3-Clause AND ISC AND MIT AND LicenseRef-scancode-unknown-license-reference
+- BSD-3-Clause AND LicenseRef-scancode-generic-cla AND MIT
+- BSD-3-Clause AND LicenseRef-scancode-protobuf
+- BSD-3-Clause AND LicenseRef-scancode-protobuf AND LicenseRef-scancode-unknown-license-reference
+- BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference
+- BSD-3-Clause-Attribution
+- BSD-3-Clause-Attribution AND LicenseRef-scancode-unknown-license-reference
+- BSD-3-Clause-Clear
+- BSD-3-Clause-Clear AND LicenseRef-scancode-unknown-license-reference
+- BSD-4-Clause
+- BSD-4-Clause AND LicenseRef-scancode-unknown-license-reference
+- BSL-1.0
+- BSL-1.0 AND LicenseRef-scancode-unknown-license-reference
+- CC-BY-3.0
+- CC-BY-3.0 AND LicenseRef-scancode-unknown-license-reference
+- CC-BY-4.0
+- CC-BY-4.0
+- CC-BY-4.0 AND CC-BY-SA-4.0 AND GPL-2.0-only AND GPL-2.0-or-later
+- CC-BY-4.0 AND CC-BY-SA-4.0 AND GPL-2.0-only AND GPL-2.0-or-later AND LicenseRef-scancode-unknown-license-reference
+- CC0-1.0
+- CC0-1.0 AND LicenseRef-scancode-unknown-license-reference
+- CDDL-1.0
+- CDDL-1.0 AND LicenseRef-scancode-unknown-license-reference
+- CDDL-1.1
+- CDDL-1.1 AND (CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND GPL-2.0-only
+- CDDL-1.1 AND (CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND GPL-2.0-only AND LicenseRef-scancode-unknown-license-reference
+- CDDL-1.1 AND LicenseRef-scancode-unknown-license-reference
+- CNRI-Python
+- CNRI-Python AND LicenseRef-scancode-unknown-license-reference
+- CPL-1.0
+- CPL-1.0 AND LicenseRef-scancode-unknown-license-reference
+- curl
+- curl AND LicenseRef-scancode-unknown-license-reference
+- EPL-1.0
+- EPL-1.0 AND GPL-1.0-or-later AND GPL-2.0-only AND GPL-2.0-only
+- EPL-1.0 AND LicenseRef-scancode-unknown-license-reference
+- EPL-2.0
+- EPL-2.0 AND Apache-2.0 AND BSD-3-Clause
+- EPL-2.0 AND Apache-2.0 AND BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference
+- EPL-2.0 AND BSD-3-Clause AND Apache-1.1 AND EPL-2.0 AND EPL-1.0 AND Apache-1.1 AND Apache-2.0 AND BSD-2-Clause AND Apache-2.0 AND Apache-1.1 AND BSD-3-Clause
+- EPL-2.0 AND GPL-1.0-or-later AND GPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0
+- EPL-2.0 AND GPL-1.0-or-later AND GPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0 AND LicenseRef-scancode-unknown-license-reference
+- EPL-2.0 AND LicenseRef-scancode-unknown-license-reference
+- GPL-1.0-or-later
+- GPL-1.0-or-later AND LicenseRef-scancode-unknown-license-reference
+- GPL-2.0-only
+- GPL-2.0-only AND LicenseRef-scancode-unknown-license-reference
+- GPL-2.0-or-later
+- GPL-2.0-or-later AND LicenseRef-scancode-unknown-license-reference
+- GPL-3.0-only
+- GPL-3.0-only AND GPL-3.0-or-later AND LGPL-3.0-only
+- GPL-3.0-only AND GPL-3.0-or-later AND LGPL-3.0-only AND LicenseRef-scancode-unknown-license-reference
+- GPL-3.0-only AND LicenseRef-scancode-unknown-license-reference
+- GPL-3.0-or-later
+- GPL-3.0-or-later AND LGPL-2.1-only
+- GPL-3.0-or-later AND LGPL-2.1-only AND curl
+- GPL-3.0-or-later AND LGPL-2.1-only AND curl AND LicenseRef-scancode-unknown-license-reference
+- GPL-3.0-or-later AND LGPL-2.1-only AND LicenseRef-scancode-unknown-license-reference
+- GPL-3.0-or-later AND LicenseRef-scancode-unknown-license-reference
+- HPND
+- HPND AND LicenseRef-scancode-unknown-license-reference
+- IBM-pibs
+- IBM-pibs AND LicenseRef-scancode-unknown-license-reference
+- ImageMagick
+- ImageMagick AND LicenseRef-scancode-unknown-license-reference
+- ISC
+- ISC AND LicenseRef-scancode-unknown-license-reference
+- ISC AND MIT AND MPL-2.0
+- JSON
+- JSON AND LicenseRef-scancode-unknown-license-reference
+- JSON AND MIT
+- LGPL-2.0-or-later
+- LGPL-2.0-or-later AND LicenseRef-scancode-unknown-license-reference
+- LGPL-2.1
+- LGPL-2.1 AND LicenseRef-scancode-unknown-license-reference
+- LGPL-2.1+
+- LGPL-2.1+ AND LicenseRef-scancode-unknown-license-reference
+- LGPL-2.1-only
+- LGPL-2.1-only AND GPL-3.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-3.0-or-later
+- LGPL-2.1-only AND LicenseRef-scancode-unknown-license-reference
+- LGPL-2.1-only AND MIT AND MPL-1.1
+- LGPL-2.1-only AND MIT AND MPL-1.1 AND LicenseRef-scancode-unknown-license-reference
+- LGPL-3.0
+- LGPL-3.0 AND LicenseRef-scancode-unknown-license-reference
+- LGPL-3.0-only
+- LGPL-3.0-only AND LicenseRef-scancode-unknown-license-reference
+- LGPL-3.0-or-later
+- LGPL-3.0-or-later AND LicenseRef-scancode-unknown-license-reference
+- LGPL-3.0-or-later WITH openvpn-openssl-exception
+- LGPL-3.0-or-later WITH openvpn-openssl-exception AND LicenseRef-scancode-unknown-license-reference
+- LicenseRef-scancode-dco-1.1 AND MIT
+- LicenseRef-scancode-public-domain AND Unlicense
+- LicenseRef-scancode-public-domain AND Unlicense AND LicenseRef-scancode-unknown-license-reference
+- LicenseRef-scancode-secret-labs-2011 AND MIT-CMU
+- LicenseRef-scancode-unknown-license-reference
+- MIT
+- MIT AND ISC
+- MIT AND ISC AND LicenseRef-scancode-unknown-license-reference
+- MIT AND LicenseRef-scancode-unknown-license-reference
+- MIT AND MIT-0
+- MIT AND MIT-0 AND LicenseRef-scancode-unknown-license-reference
+- MIT AND MIT-CMU
+- MIT AND MIT-CMU AND LicenseRef-scancode-unknown-license-reference
+- MIT AND MPL-2.0
+- MIT AND MPL-2.0 AND LicenseRef-scancode-unknown-license-reference
+- MIT AND OSL-3.0
+- MIT AND PSF-2.0
+- MIT AND PSF-2.0 AND LicenseRef-scancode-unknown-license-reference
+- MIT AND PSF-2.0 AND Python-2.0
+- MIT AND Python-2.0
+- MIT AND Python-2.0 AND LicenseRef-scancode-unknown-license-reference
+- MIT AND Python-2.0.1
+- MIT AND Python-2.0.1 AND LicenseRef-scancode-unknown-license-reference
+- MIT AND ZPL-2.1
+- MIT AND ZPL-2.1 AND LicenseRef-scancode-unknown-license-reference
+- MIT-0
+- MIT-0 AND LicenseRef-scancode-unknown-license-reference
+- MIT-advertising
+- MIT-advertising AND LicenseRef-scancode-unknown-license-reference
+- mpi-permissive
+- mpi-permissive AND LicenseRef-scancode-unknown-license-reference
+- MPL-1.1
+- MPL-1.1 AND LicenseRef-scancode-unknown-license-reference
+- MPL-2.0
+- MPL-2.0 AND LicenseRef-scancode-unknown-license-reference
+- NCSA
+- NCSA AND LicenseRef-scancode-unknown-license-reference
+- Nokia
+- Nokia AND LicenseRef-scancode-unknown-license-reference
+- ODC-By-1.0
+- ODC-By-1.0 AND LicenseRef-scancode-unknown-license-reference
+- OFL-1.1
+- OFL-1.1 AND LicenseRef-scancode-unknown-license-reference
+- PDDL-1.0
+- PDDL-1.0 AND LicenseRef-scancode-unknown-license-reference
+- Plexus
+- Plexus AND LicenseRef-scancode-unknown-license-reference
+- PostgreSQL
+- PostgreSQL AND LicenseRef-scancode-unknown-license-reference
+- PSF-2.0
+- PSF-2.0 AND LicenseRef-scancode-unknown-license-reference
+- Python-2.0
+- Python-2.0 AND LicenseRef-scancode-unknown-license-reference
+- Python-2.0 AND Python-2.0 AND BSD-3-Clause AND Python-2.0 AND BSD-3-Clause AND 0BSD
+- Python-2.0 AND Python-2.0 AND BSD-3-Clause AND Python-2.0 AND BSD-3-Clause AND 0BSD AND LicenseRef-scancode-unknown-license-reference
+- Python-2.0.1
+- Python-2.0.1 AND LicenseRef-scancode-unknown-license-reference
+- Ruby
+- Ruby AND LicenseRef-scancode-unknown-license-reference
+- SAX-PD
+- SAX-PD AND LicenseRef-scancode-unknown-license-reference
+- SPL-1.0
+- SPL-1.0 AND LicenseRef-scancode-unknown-license-reference
+- Unlicense
+- Unlicense AND LicenseRef-scancode-unknown-license-reference
+- UPL-1.0
+- UPL-1.0 AND LicenseRef-scancode-unknown-license-reference
+- W3C
+- W3C AND LicenseRef-scancode-unknown-license-reference
+- Wsuipa
+- Wsuipa AND LicenseRef-scancode-unknown-license-reference
+- WTFPL
+- WTFPL AND LicenseRef-scancode-unknown-license-reference
+- X11
+- X11 AND LicenseRef-scancode-unknown-license-reference
+- X11-distribute-modifications-variant
+- X11-distribute-modifications-variant AND LicenseRef-scancode-unknown-license-reference
+- Xerox
+- Xerox AND LicenseRef-scancode-unknown-license-reference
+- xpp
+- xpp AND LicenseRef-scancode-unknown-license-reference
+- YPL-1.1
+- YPL-1.1 AND LicenseRef-scancode-unknown-license-reference
+- Zlib
+- Zlib AND LicenseRef-scancode-unknown-license-reference
+- ZPL-2.1
+- ZPL-2.1 AND LicenseRef-scancode-unknown-license-reference
