@@ -405,6 +405,7 @@ allow-licenses:
   - 'LGPL-3.0-or-later'
   - 'LGPL-3.0-or-later WITH openvpn-openssl-exception'
   - 'LicenseRef-scancode-other-permissive'
+  - 'LicenseRef-scancode-protobuf'
   - 'LicenseRef-scancode-unknown-license-reference'
   - 'MIT'
   - 'MIT-0'
