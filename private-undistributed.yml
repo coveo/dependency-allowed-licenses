@@ -446,6 +446,7 @@ allow-licenses:
   - 'LicenseRef-scancode-dco-1.1 AND MIT'
   - 'LicenseRef-scancode-public-domain AND Unlicense'
   - 'LicenseRef-scancode-python-cwi'
+  - 'LicenseRef-scancode-secret-labs-2011'
   - 'LicenseRef-scancode-unicode'
   - 'LGPL-2.0-or-later'
   - 'LGPL-2.1'
