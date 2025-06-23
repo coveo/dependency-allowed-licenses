@@ -22,6 +22,7 @@ allow-licenses:
   - 'ImageMagick'
   - 'ISC'
   - 'JSON'
+  - 'LicenseRef-scancode-dco-1.1 AND MIT'
   - 'MIT'
   - 'MIT-0'
   - 'MIT-advertising'
