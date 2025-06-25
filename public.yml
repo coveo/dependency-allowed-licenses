@@ -47,7 +47,6 @@ allow-licenses:
   - 'Python-2.0.1'
   - 'SAX-PD'
   - 'Unlicense'
-  - 'Unicode-3.0'
   - 'UPL-1.0'
   - 'W3C'
   - 'Wsuipa'
