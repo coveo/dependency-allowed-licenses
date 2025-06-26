@@ -352,7 +352,7 @@ allow-dependencies-licenses:
   - 'pkg:maven/org.springframework.data/spring-yarn-integration'
   - 'pkg:maven/org.springframework.data/spring-yarn-test'
   # This is public domain https://github.com/xmlpull-xpp3/xmlpull-xpp3/blob/master/pom.xml#L18-L24
-  - 'pkg:maven/xmlpull:xmlpull'
+  - 'pkg:maven/xmlpull/xmlpull'
 
 # Allow list for closed-source undistributed projects.
 allow-licenses:
