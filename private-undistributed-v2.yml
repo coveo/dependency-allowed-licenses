@@ -404,7 +404,7 @@ allow-licenses:
   - 'LGPL-3.0-only'
   - 'LGPL-3.0-or-later'
   - 'LGPL-3.0-or-later WITH openvpn-openssl-exception'
-  - 'LicenseRef-scancode-dco-1.1 AND MIT'
+  - 'LicenseRef-scancode-dco-1.1'
   - 'LicenseRef-scancode-other-permissive'
   - 'LicenseRef-scancode-protobuf'
   - 'LicenseRef-scancode-secret-labs-2011'
