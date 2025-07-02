@@ -7,6 +7,8 @@ allow-dependencies-licenses:
   - 'pkg:maven/com.google.errorprone/error_prone_annotations'
   # org.aspectj/aspectjweaver has an EPL-2.0 license but it is not detected properly (https://github.com/eclipse-aspectj/aspectj/blob/master/aspectjweaver/pom.xml#L21-L27 / https://github.com/eclipse-aspectj/aspectj?tab=License-1-ov-file)
   - 'pkg:maven/org.aspectj/aspectjweaver'
+  # org.glassfish.jersey.core/jersey-common has an EPL-2.0 license (https://github.com/eclipse-ee4j/jersey/tree/2.x?tab=License-1-ov-file#readme) but it is not being detected properly and leads to an Invalid SPDX License error.
+  - 'pkg:maven/org.glassfish.jersey.core/jersey-common'
   # org.json/json has a public domain license but it is not detected properly by GitHub (https://github.com/stleary/JSON-java/blob/master/LICENSE)
   - 'pkg:maven/org.json/json'
   # All Spring Framework, Spring Boot, Spring Cloud and Spring Data.
@@ -404,6 +406,7 @@ allow-licenses:
   - 'LGPL-3.0-only'
   - 'LGPL-3.0-or-later'
   - 'LGPL-3.0-or-later WITH openvpn-openssl-exception'
+  - 'LicenseRef-scancode-dco-1.1'
   - 'LicenseRef-scancode-other-permissive'
   - 'LicenseRef-scancode-protobuf'
   - 'LicenseRef-scancode-python-cwi'
@@ -430,6 +433,7 @@ allow-licenses:
   - 'Ruby'
   - 'SAX-PD'
   - 'SPL-1.0'
+  - 'Unicode-3.0'
   - 'Unlicense'
   - 'UPL-1.0'
   - 'W3C'
