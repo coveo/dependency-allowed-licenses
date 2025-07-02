@@ -409,6 +409,7 @@ allow-licenses:
   - 'LicenseRef-scancode-dco-1.1'
   - 'LicenseRef-scancode-other-permissive'
   - 'LicenseRef-scancode-protobuf'
+  - 'LicenseRef-scancode-python-cwi'
   - 'LicenseRef-scancode-secret-labs-2011'
   - 'LicenseRef-scancode-unicode'
   - 'LicenseRef-scancode-unknown-license-reference'
