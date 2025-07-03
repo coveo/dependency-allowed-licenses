@@ -9,6 +9,9 @@ allow-dependencies-licenses:
   - 'pkg:maven/org.aspectj/aspectjweaver'
   # org.glassfish.jersey.core/jersey-common has an EPL-2.0 license (https://github.com/eclipse-ee4j/jersey/tree/2.x?tab=License-1-ov-file#readme) but it is not being detected properly and leads to an Invalid SPDX License error.
   - 'pkg:maven/org.glassfish.jersey.core/jersey-common'
+  # org.jdom/jdom2 has a custom license that is classified as OTHER by ClearlyDefined (https://github.com/hunterhacker/jdom/blob/master/LICENSE.txt)
+  # The maintainer summarizes it as "Similar to Apache License but with the acknowledgment clause removed" (see the license section in /maven/maven.pom in the repository)
+  - 'pkg:maven/org.jdom/jdom2'
   # org.json/json has a public domain license but it is not detected properly by GitHub (https://github.com/stleary/JSON-java/blob/master/LICENSE)
   - 'pkg:maven/org.json/json'
   # All Spring Framework, Spring Boot, Spring Cloud and Spring Data.
