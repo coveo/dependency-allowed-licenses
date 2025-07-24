@@ -434,6 +434,7 @@ allow-licenses:
   - 'PSF-2.0'
   - 'Python-2.0'
   - 'Python-2.0.1'
+  - 'Qhull'
   - 'Ruby'
   - 'SAX-PD'
   - 'SPL-1.0'
