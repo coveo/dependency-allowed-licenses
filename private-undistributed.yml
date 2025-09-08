@@ -383,6 +383,7 @@ allow-licenses:
   - 'BSD-3-Clause-No-Nuclear-Warranty'
   - 'BSD-4-Clause'
   - 'BSL-1.0'
+  - 'CAL-1.0'
   - 'CC-BY-3.0'
   - 'CC-BY-4.0'
   - 'CC-BY-SA-4.0'
