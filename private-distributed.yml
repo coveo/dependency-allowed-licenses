@@ -1,6 +1,7 @@
 # Allow list for closed-source distributed projects.
 allow-licenses:
   - '0BSD'
+  - 'Apache-1.1'
   - 'Apache-2.0'
   - 'Beerware'
   - 'BlueOak-1.0.0'
