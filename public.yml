@@ -18,6 +18,7 @@ allow-licenses:
   - 'CNRI-Python'
   - 'curl'
   - 'HPND'
+  - 'HPND-Markus-Kuhn'
   - 'IBM-pibs'
   - 'ImageMagick'
   - 'ISC'
