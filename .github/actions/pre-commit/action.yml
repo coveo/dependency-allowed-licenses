@@ -1,0 +1,32 @@
+name: Installs and runs pre-commit
+description: This action installs and runs `pre-commit` on the repository.
+
+inputs:
+  working-directory:
+    default: .
+    description: The working directory to run `pre-commit` in.
+  args:
+    description: Arguments to pass to pre-commit run.
+    default: '--show-diff-on-failure --color=always --all-files'
+  python-executable:
+    description: The Python executable to use.
+    default: python
+
+runs:
+  using: composite
+  steps:
+
+    - name: Install pre-commit
+      run: $PYTHON -m pip install pre-commit
+      shell: bash
+      working-directory: ${{ inputs.working-directory }}
+      env:
+        PYTHON: ${{ inputs.python-executable }}
+
+    - name: Run pre-commit
+      run: $PYTHON -m pre_commit run $PRE_COMMIT_ARGS
+      shell: bash
+      working-directory: ${{ inputs.working-directory }}
+      env:
+        PYTHON: ${{ inputs.python-executable }}
+        PRE_COMMIT_ARGS: ${{ inputs.args }}
