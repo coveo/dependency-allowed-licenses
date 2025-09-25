@@ -427,6 +427,7 @@ allow-licenses:
   - 'MIT-CMU'
   - 'MIT-0'
   - 'MIT-advertising'
+  - 'MITNFA
   - 'mpi-permissive'
   - 'MPL-1.1'
   - 'MPL-2.0'
