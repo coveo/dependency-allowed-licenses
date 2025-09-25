@@ -1,0 +1,7 @@
+repos:
+  - repo: https://github.com/python-jsonschema/check-jsonschema
+    rev: 0.28.2
+    hooks:
+      - id: check-jsonschema
+        files: ^(private-distributed|private-undistributed|public).yml$
+        args: ["--schemafile", "schemas/default.schema.json"]
