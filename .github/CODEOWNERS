@@ -1,4 +1,12 @@
 # These owners will be the default owners for everything in
 # the repo. Unless a later match takes precedence
 # They will automatically be added as reviewers.
-* @coveo-platform/r-d-defense @coveo/legal-team
+
+* @coveo-platform/r-d-defense
+
+# License specific files
+public.yml @coveo/legal-team
+private-undistributed.yml @coveo/legal-team
+private-distributed.yml @coveo/legal-team
+LICENSE.md @coveo/legal-team
+
