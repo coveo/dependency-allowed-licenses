@@ -2,7 +2,7 @@
 # the repo. Unless a later match takes precedence
 # They will automatically be added as reviewers.
 
-* @coveo-platform/r-d-defense
+* @coveo/r-d-security-defence
 
 # License specific files
 public.yml @coveo/legal-team
