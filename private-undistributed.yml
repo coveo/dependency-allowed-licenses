@@ -420,6 +420,7 @@ allow-licenses:
   - 'LicenseRef-scancode-alliance-open-media-patent-1.0'
   - 'LicenseRef-scancode-dco-1.1'
   - 'LicenseRef-scancode-other-permissive'
+  - 'LicenseRef-scancode-generic-export-compliance'
   - 'LicenseRef-scancode-protobuf'
   - 'LicenseRef-scancode-public-domain'
   - 'LicenseRef-scancode-python-cwi'
