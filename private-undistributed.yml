@@ -7,8 +7,16 @@ allow-dependencies-licenses:
   - 'pkg:maven/com.google.errorprone/error_prone_annotations'
   # This package is being detected as having an export compliance reference (https://github.com/jakartaee/jaxb-api/blob/554863385ac5f39e67cfd9e7bc9afc0272313b54/NOTICE.md?plain=1#L40-L47)
   - 'pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api'
+  # org.apache.commons/commons-math' has a public domain license (Apache 2.0), but it is not detected properly by GitHub
+  - 'pkg:maven/org.apache.commons:commons-math'
   # org.aspectj/aspectjweaver has an EPL-2.0 license but it is not detected properly (https://github.com/eclipse-aspectj/aspectj/blob/master/aspectjweaver/pom.xml#L21-L27 / https://github.com/eclipse-aspectj/aspectj?tab=License-1-ov-file)
   - 'pkg:maven/org.aspectj/aspectjweaver'
+  # org.eclipse.angus/angus-activation has a public domain license (BSD-3-Clause), but it is not detected properly by GitHub
+  - 'pkg:maven/org.eclipse.angus:angus-activation'
+  # org.glassfish.jaxb/* has a public domain license (BSD-3-Clause), but it is not detected properly by GitHub
+  - 'pkg:maven/org.glassfish.jaxb:jaxb-core'
+  - 'pkg:maven/org.glassfish.jaxb:txw2'
+  - 'pkg:maven/org.glassfish.jaxb:jaxb-runtime'
   # org.glassfish.jersey.core/jersey-common has an EPL-2.0 license (https://github.com/eclipse-ee4j/jersey/tree/2.x?tab=License-1-ov-file#readme) but it is not being detected properly and leads to an Invalid SPDX License error.
   - 'pkg:maven/org.glassfish.jersey.core/jersey-common'
   # org.jdom/jdom2 has a custom license that is classified as OTHER by ClearlyDefined (https://github.com/hunterhacker/jdom/blob/master/LICENSE.txt)
