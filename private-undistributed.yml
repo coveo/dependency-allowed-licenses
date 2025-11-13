@@ -7,6 +7,9 @@ allow-dependencies-licenses:
   - 'pkg:maven/com.google.errorprone/error_prone_annotations'
   # This package is being detected as having an export compliance reference (https://github.com/jakartaee/jaxb-api/blob/554863385ac5f39e67cfd9e7bc9afc0272313b54/NOTICE.md?plain=1#L40-L47)
   - 'pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api'
+  # Same as above (https://github.com/jakartaee/jsonb-api/blob/master/NOTICE.md)
+  - 'pkg:maven/jakarta.json/jakarta.json-api'
+  - 'pkg:maven/jakarta.json.bind/jakarta.json.bind-api'
   # org.apache.commons/commons-math' has a public domain license (Apache 2.0), but it is not detected properly by GitHub
   - 'pkg:maven/org.apache.commons/commons-math'
   # org.aspectj/aspectjweaver has an EPL-2.0 license but it is not detected properly (https://github.com/eclipse-aspectj/aspectj/blob/master/aspectjweaver/pom.xml#L21-L27 / https://github.com/eclipse-aspectj/aspectj?tab=License-1-ov-file)
