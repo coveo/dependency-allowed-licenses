@@ -373,6 +373,7 @@ allow-dependencies-licenses:
   - 'pkg:maven/xmlpull/xmlpull'
   - 'pkg:pypi/torchmetrics'
   - 'pkg:pypi/matplotlib' # false positive detected as CAL-1, see https://coveord.atlassian.net/browse/COMAI-4671
+  - 'pkg:pypi/aioitertools' # false positived detected as LicenseRef-scancode-free-unknown, see https://coveord.atlassian.net/browse/COMAI-5138 
 
 # Allow list for closed-source undistributed projects.
 allow-licenses:
