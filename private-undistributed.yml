@@ -371,6 +371,9 @@ allow-dependencies-licenses:
   - 'pkg:maven/org.springframework.data/spring-yarn-test'
   # This is public domain https://github.com/xmlpull-xpp3/xmlpull-xpp3/blob/master/pom.xml#L18-L24
   - 'pkg:maven/xmlpull/xmlpull'
+  # marked is detected as BSD-3-Clause AND LicenseRef-scancode-generic-cla AND MIT. The CLA for the
+  # dependency is acceptable, but allowing LicenseRef-scancode-generic-cla would be too broad.
+  - 'pkg:npm/marked'
   - 'pkg:pypi/torchmetrics'
   - 'pkg:pypi/matplotlib' # false positive detected as CAL-1, see https://coveord.atlassian.net/browse/COMAI-4671
 
