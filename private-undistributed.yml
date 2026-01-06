@@ -441,6 +441,7 @@ allow-licenses:
   - 'LicenseRef-scancode-secret-labs-2011'
   - 'LicenseRef-scancode-unicode'
   - 'LicenseRef-scancode-unknown-license-reference'
+  - 'LicenseRef-scancode-fsl-1.1-mit'
   - 'MIT'
   - 'MIT-CMU'
   - 'MIT-0'
