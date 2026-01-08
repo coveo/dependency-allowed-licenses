@@ -12,6 +12,14 @@ allow-dependencies-licenses:
   - 'pkg:maven/jakarta.json.bind/jakarta.json.bind-api'
   # org.apache.commons/commons-math' has a public domain license (Apache 2.0), but it is not detected properly by GitHub
   - 'pkg:maven/org.apache.commons/commons-math'
+  # org.apache.lucene:lucene-* has a public domain license (Apache 2.0 - https://github.com/apache/lucene / https://repository.apache.org/snapshots/org/apache/lucene/) but is not detected properly by Github
+  - 'pkg:maven/org.apache.lucene/lucene-grouping'
+  - 'pkg:maven/org.apache.lucene/lucene-highlighter'
+  - 'pkg:maven/org.apache.lucene/lucene-misc'
+  - 'pkg:maven/org.apache.lucene/lucene-queries'
+  - 'pkg:maven/org.apache.lucene/lucene-queryparser'
+  - 'pkg:maven/org.apache.lucene/lucene-spatial-extras'
+  - 'pkg:maven/org.apache.lucene/lucene-suggest'
   # org.aspectj/aspectjweaver has an EPL-2.0 license but it is not detected properly (https://github.com/eclipse-aspectj/aspectj/blob/master/aspectjweaver/pom.xml#L21-L27 / https://github.com/eclipse-aspectj/aspectj?tab=License-1-ov-file)
   - 'pkg:maven/org.aspectj/aspectjweaver'
   # org.eclipse.angus/angus-activation has a public domain license (BSD-3-Clause), but it is not detected properly by GitHub
