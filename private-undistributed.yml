@@ -416,6 +416,7 @@ allow-licenses:
   - 'CDDL-1.0'
   - 'CDDL-1.1'
   - 'CNRI-Python'
+  - 'COIL-1.0'
   - 'CPL-1.0'
   - 'curl'
   - 'EPL-1.0'
