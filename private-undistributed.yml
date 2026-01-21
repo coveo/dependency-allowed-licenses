@@ -35,6 +35,8 @@ allow-dependencies-licenses:
   - 'pkg:maven/org.jdom/jdom2'
   # org.json/json has a public domain license but it is not detected properly by GitHub (https://github.com/stleary/JSON-java/blob/master/LICENSE)
   - 'pkg:maven/org.json/json'
+  # org.mpierce.metrics.reservoir:hdrhistogram-metrics-reservoir has a COIL-1.0 license. This license isn't approve broadly because it has additional obligations for derived works. In our case we are not extending it or deriving from it. We are therefore approving it for this specific use in SUMS.
+  - 'pkg:maven/org.mpierce.metrics.reservoir:hdrhistogram-metrics-reservoir'
   # com.mysql/mysql-connector-j has a custom GPL license 'The GNU General Public License, v2 with Universal FOSS Exception, v1.0' which is not detected properly and defied as OTHER in clearlydefined/curated-data dataset.
   - 'pkg:maven/com.mysql/mysql-connector-j'
   # All Spring Framework, Spring Boot, Spring Cloud and Spring Data.
@@ -418,7 +420,6 @@ allow-licenses:
   - 'CDDL-1.0'
   - 'CDDL-1.1'
   - 'CNRI-Python'
-  - 'COIL-1.0'
   - 'CPL-1.0'
   - 'curl'
   - 'EPL-1.0'
