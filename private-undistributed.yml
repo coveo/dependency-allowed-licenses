@@ -433,6 +433,7 @@ allow-licenses:
   - 'GPL-3.0-only'
   - 'GPL-3.0-or-later'
   - 'HPND'
+  - 'HPND-Markus-Kuhn'
   - 'IBM-pibs'
   - 'ImageMagick'
   - 'ISC'
