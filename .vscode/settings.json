@@ -1,0 +1,10 @@
+{
+  "yaml.format.singleQuote": true,
+  "yaml.schemas": {
+    "schemas/default.schema.json": [
+      "private-distributed.yml",
+      "private-undistributed.yml",
+      "public.yml"
+    ]
+  }
+}

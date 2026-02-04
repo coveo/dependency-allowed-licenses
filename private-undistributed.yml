@@ -3,6 +3,8 @@
 # A script is present in the scripts folder to generate the purl for a specific groupId.
 # Keep this list sorted alphabetically please!
 allow-dependencies-licenses:
+  # com.datadoghq/java-dogstatsd-client has an MIT license but is not detected properly (https://github.com/DataDog/java-dogstatsd-client/blob/master/LICENSE)
+  - 'pkg:maven/com.datadoghq/java-dogstatsd-client'
   # com.google.errorprone/error_prone_annotations has a Apache-2.0 license but it is not detected properly (https://github.com/google/error-prone?tab=Apache-2.0-1-ov-file#readme)
   - 'pkg:maven/com.google.errorprone/error_prone_annotations'
   # This package is being detected as having an export compliance reference (https://github.com/jakartaee/jaxb-api/blob/554863385ac5f39e67cfd9e7bc9afc0272313b54/NOTICE.md?plain=1#L40-L47)
@@ -22,8 +24,13 @@ allow-dependencies-licenses:
   - 'pkg:maven/org.apache.lucene/lucene-suggest'
   # org.aspectj/aspectjweaver has an EPL-2.0 license but it is not detected properly (https://github.com/eclipse-aspectj/aspectj/blob/master/aspectjweaver/pom.xml#L21-L27 / https://github.com/eclipse-aspectj/aspectj?tab=License-1-ov-file)
   - 'pkg:maven/org.aspectj/aspectjweaver'
+  # org.bouncycastle/bcpkix-jdk18on and org.bouncycastle/bcutil-jdk18on have an MIT license, but it is not detected properly (https://www.bouncycastle.org/about/license / https://github.com/bcgit/bc-java/blob/main/LICENSE.md)
+  - 'pkg:maven/org.bouncycastle/bcpkix-jdk18on'
+  - 'pkg:maven/org.bouncycastle/bcutil-jdk18on'
   # org.eclipse.angus/angus-activation has a public domain license (BSD-3-Clause), but it is not detected properly by GitHub
   - 'pkg:maven/org.eclipse.angus/angus-activation'
+  # org.flywaydb/flyway-mysql has a public domain license (Apache 2.0 - https://github.com/flyway/flyway/blob/main/LICENSE.md) but is not detected properly by Github
+  - 'pkg:maven/org.flywaydb/flyway-mysql'
   # org.glassfish.jaxb/* has a public domain license (BSD-3-Clause), but it is not detected properly by GitHub
   - 'pkg:maven/org.glassfish.jaxb/jaxb-core'
   - 'pkg:maven/org.glassfish.jaxb/txw2'
