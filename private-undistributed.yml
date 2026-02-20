@@ -12,14 +12,21 @@ allow-dependencies-licenses:
   # Same as above (https://github.com/jakartaee/jsonb-api/blob/master/NOTICE.md)
   - 'pkg:maven/jakarta.json/jakarta.json-api'
   - 'pkg:maven/jakarta.json.bind/jakarta.json.bind-api'
+  # net.java.dev.jna/jna has a public domain license (Apache 2.0), but it is not detected properly by GitHub. https://github.com/java-native-access/jna/blob/master/LICENSE has two licenses we can choose from: Apache-2.0 or LGPL-2.1.
+  - 'pkg:maven/net.java.dev.jna/jna'
   # org.apache.commons/commons-math' has a public domain license (Apache 2.0), but it is not detected properly by GitHub
   - 'pkg:maven/org.apache.commons/commons-math'
   # org.apache.lucene:lucene-* has a public domain license (Apache 2.0 - https://github.com/apache/lucene / https://repository.apache.org/snapshots/org/apache/lucene/) but is not detected properly by Github
+  - 'pkg:maven/org.apache.lucene/lucene-analysis-common'
+  - 'pkg:maven/org.apache.lucene/lucene-backward-codecs'
+  - 'pkg:maven/org.apache.lucene/lucene-core'
   - 'pkg:maven/org.apache.lucene/lucene-grouping'
   - 'pkg:maven/org.apache.lucene/lucene-highlighter'
+  - 'pkg:maven/org.apache.lucene/lucene-memory'
   - 'pkg:maven/org.apache.lucene/lucene-misc'
   - 'pkg:maven/org.apache.lucene/lucene-queries'
   - 'pkg:maven/org.apache.lucene/lucene-queryparser'
+  - 'pkg:maven/org.apache.lucene/lucene-sandbox'
   - 'pkg:maven/org.apache.lucene/lucene-spatial-extras'
   - 'pkg:maven/org.apache.lucene/lucene-suggest'
   # org.aspectj/aspectjweaver has an EPL-2.0 license but it is not detected properly (https://github.com/eclipse-aspectj/aspectj/blob/master/aspectjweaver/pom.xml#L21-L27 / https://github.com/eclipse-aspectj/aspectj?tab=License-1-ov-file)
