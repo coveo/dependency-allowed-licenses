@@ -10,7 +10,10 @@ metadata:
     The approved open-source licenses for dependencies in Coveo projects.
   annotations:
     wiz.io/project-id: ca37e6ce-f76e-50ae-b0af-6fb005e2c073
-    wiz.io/repository-external-id: 53df01e2-e37b-53c4-9fc7-2e6d7b874e45
+    # Wiz tab: the repository, then its `main` branch.
+    wiz.io/asset-id: >-
+      53df01e2-e37b-53c4-9fc7-2e6d7b874e45,
+      dc600d27-4f46-5127-a688-7628d73e32b1
     snyk.io/org-id: 6380f72a-82b3-46bb-9bf6-0e7af0731ee4
 spec:
   type: tooling
